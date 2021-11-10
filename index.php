@@ -1,3 +1,6 @@
 <?php
-include_once __DIR__."/Class/property_method.php";
+require __DIR__."/vendor/autoload.php";
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
+$dotenv->load();
+include_once __DIR__."/Class/static.php";
 ?>

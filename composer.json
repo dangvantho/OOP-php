@@ -1,0 +1,12 @@
+{
+    "name": "dangv/oop",
+    "authors": [
+        {
+            "name": "dangvantho",
+            "email": "dangvantho12as0@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
