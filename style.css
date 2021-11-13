@@ -1,0 +1,48 @@
+#form-create-table{
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px 0 #ccc;
+}
+.create-form {
+    display: flex;
+    gap: 12px;
+}
+#add_table_field{
+    position: relative;
+}
+#add_table_field span {
+    position: absolute;
+    top: 100%;
+    padding: 4px 8px;
+    min-width: 140px;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+#add_table_field:hover span {
+    display: block;
+    cursor: pointer;
+}
+#add_table_field .icon{
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add_table_field .icon i{
+    font-weight: 600;
+    color: #5d5d5d;
+}
+.fields {
+    list-style: none;
+}
+.fields li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
